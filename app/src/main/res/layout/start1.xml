@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3dbdae">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/kenali"
+        android:layout_marginTop="30dp"
+        android:background="#f46687"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="320sp"
+        android:layout_above="@+id/imageButton2" />
+
+    <ImageView
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/kenali_diri"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="If you wanna know yourself, you can ask to someone for giving you an opinion about your personality. In others method, Get to know your thoughts, don&apos;t let it become stunted. "
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="5pt" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/next"
+        android:adjustViewBounds="false"
+        android:clickable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="setContentView" />
+    </RelativeLayout>
+
+</LinearLayout>

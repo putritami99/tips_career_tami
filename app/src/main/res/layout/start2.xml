@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3dbdae">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/start2"
+        android:layout_marginTop="30dp"
+        android:background="#f46687"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="320sp" />
+
+    <ImageView
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/passion"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please look around. If you feeel something weird which is match to you or you feel comfy with that stuff, believe this is your passion."
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="15pt" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/next"
+        android:adjustViewBounds="false"
+        android:clickable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_marginRight="73dp"
+        android:layout_marginEnd="73dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_toLeftOf="@id/imageButton"
+        android:src="@drawable/preview"
+        android:adjustViewBounds="false"
+        android:clickable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
